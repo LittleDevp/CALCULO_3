@@ -1,0 +1,27 @@
+syms x;
+t=0:2*pi/100:3;
+x=(4*t-1);
+y=(2*t);
+title('Lissajous')
+ylabel('Eje Y')
+xlabel('Eje X')
+plot(x,y)
+
+syms x;
+t=0:2*pi/100:4*pi;
+x=(t-4);
+y=(sqrt(t));
+title('Lissajous')
+ylabel('Eje Y')
+xlabel('Eje X')
+plot(x,y)
+
+syms x;
+t=-3:2*pi/100:3*pi;
+x=(t.^2);
+y=(t.^3-t);
+title('Lissajous')
+ylabel('Eje Y')
+xlabel('Eje X')
+plot(x,y)
+
