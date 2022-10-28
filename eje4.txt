@@ -1,0 +1,8 @@
+t = 0:2*pi/100:2*pi
+x = 3 * sin(t);
+y = 5*cos(t);
+
+plot(x,y)
+title('Lissajous')
+ylabel('Eje Y')
+xlabel('Eje X')
